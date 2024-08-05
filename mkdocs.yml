@@ -1,0 +1,26 @@
+site_name: Servidor HTTP
+
+nav:
+  - Home: index.md
+  - Configuração Inicial: pagina1.md
+  - Banco de Dados: pagina2.md
+  - Instalando o WordPress: pagina3.md
+  - Configuração do Hosts: pagina4.md
+  - Configuração do MkDocs: pagina5.md
+  - Páginas do WordPress: pagina6.md
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - toc
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+theme:
+  name: mkdocs
+  highlightjs: true
+  pygments_style: monokai
